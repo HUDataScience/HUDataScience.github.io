@@ -2,14 +2,14 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 # Permalinks are decrepated
-#relative_permalinks: true
+# relative_permalinks: true
 
 # Setup
 title:               Humboldt Data Science
-tagline:             'Statistical Analysis and Pytho tools'
+tagline:             'Statistical Analysis and Python tools'
 description:         'Website built using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> using <a href="https://twitter.com/mdo" target="_blank">@mdo</a> Lynaon theme..'
-url:                 http://hudatascience.github.io
-baseurl:             ''
+url:                 http://github.com/HUDataScience
+baseurl:             'http://hudatascience.github.io/'
 paginate:            5
 
 # About/contact
