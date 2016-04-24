@@ -1,17 +1,9 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      true
-<<<<<<< HEAD
 gems:             [jekyll-paginate]
 # Permalinks
 permalink:        pretty
-=======
-gems:            [jekyll-paginate]
-
-# Permalinks
-permalink:        pretty
-
->>>>>>> master
 
 # Setup
 title:               Humboldt Data Science
