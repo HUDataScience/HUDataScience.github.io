@@ -1,0 +1,18 @@
+/*
+ *  Mickael Rigault CSS add on
+ *
+ */
+/*
+ * Contents
+ *
+ * Global resets
+ * excerpt
+ */
+
+.excerpt {
+  margin-left:    1rem;
+  padding-left:   1rem;
+  border-left-color: gray;
+  border-left-style: solid;
+  border-left-width: medium;    
+}

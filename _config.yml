@@ -15,13 +15,21 @@ baseurl:             ''
 # About Posts
 paginate:            5
 paginate_path:      "/classes/page:num/"
+excerpt_separator:  "<!--more-->"
+
+# Class Information
+currentclass:               
+  year:              2016
+  # -> Do not forget to change that also in the paginate_path
+
 # About/contact
 huastrourl:          https://www.physik.hu-berlin.de/de/astro
 giturl:              "http://github.com/HUDataScience"
+googledriveurl:      "https://googledrive.com/host/0B1BgCcqT-RlvNVgzRWV1MkxyWDA"
 author:
   name:              Humboldt Cosmology Team
   url:               
   email:             humboldtcosmo@gmail.com
 
 # Custom vars
-version:             0.2.1
+version:             0.3.0

@@ -3,22 +3,42 @@ layout: page
 title: Classes
 ---
 
+<p>This section gathers the latest posts.</p>
+
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    {% capture currentyear %}{{ site.currentclass.year }}{% endcapture %}
+    
+    {% for post in site.posts %}
+        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+        <!--This means, this is the current year-->
+        {% unless post.visible == false %}
+          {% unless post.next %}
+            <h3> {{ postyear }}</h3>
+           {% else %}
+	        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+	        {% if postyear != nyear %}
+	          <h3> {{ post.date | date: '%Y' }}</h3>
+            {% else %}
+            <br>
+	       {% endif %}
+	      {% endunless %}
+        
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    
+        {% if postyear == currentyear %}
+            <!--Only the first paragraph-->
+            <div class="excerpt">
+            <div class="excerpt-text">{{ post.excerpt }}</div>
+            <a href="{{ post.url }}" class="btn btn-default btn-xl">continue...</a>
+            </div>
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
     
 </div>
+
+
 
 <div class="pagination">
   {% if paginator.next_page %}
