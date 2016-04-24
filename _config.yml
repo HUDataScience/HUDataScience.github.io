@@ -9,12 +9,13 @@ permalink:        pretty
 title:               Humboldt Data Science
 tagline:             'Statistical Methods and Python tools'
 description:         'Class provided by the Cosmology Group of Prof. Marek Kowalski of the <a href="https://www.physik.hu-berlin.de/de/astro" target="_blank">Humboldt Universitaet zu Berlin.</a>'
-url:                 http://github.com/HUDataScience
-baseurl:             'http://hudatascience.github.io'
-huastrourl:          https://www.physik.hu-berlin.de/de/astro
-paginate:            5
 
+url:                 http://github.com/HUDataScience
+baseurl:             ""
+paginate:            5
+paginate_path:      "/classes/page:num/"
 # About/contact
+huastrourl:          https://www.physik.hu-berlin.de/de/astro
 author:
   name:              Humboldt Cosmology Team
   url:               
