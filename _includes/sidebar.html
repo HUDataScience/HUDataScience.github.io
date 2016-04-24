@@ -25,13 +25,13 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.giturl }}">GitHub project</a>
+    <a class="sidebar-nav-item" href="{{ site.giturl }}" target="_blank">GitHub project</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+       {{ site.author.name }}
     </p>
   </div>
 </div>
