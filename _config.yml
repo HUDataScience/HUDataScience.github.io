@@ -6,10 +6,11 @@
 
 # Setup
 title:               Humboldt Data Science
-tagline:             'Statistical Analysis and Python tools'
-description:         'Website built using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> using <a href="https://twitter.com/mdo" target="_blank">@mdo</a> Lynaon theme..'
+tagline:             'Statistical Methods and Python tools'
+description:         'Data Science class provided by the Cosmology Group of Prof. Marek Kowalski of the <a href="https://www.physik.hu-berlin.de/de/astro" target="_blank">Humboldt Universitaet zu Berlin.</a>'
 url:                 http://github.com/HUDataScience
 baseurl:             'http://hudatascience.github.io/'
+huastrourl:          https://www.physik.hu-berlin.de/de/astro
 paginate:            5
 
 # About/contact
