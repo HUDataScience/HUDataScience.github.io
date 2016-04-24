@@ -1,15 +1,16 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      true
+gems:             [jekyll-paginate]
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-# Permalinks are decrepated
-# relative_permalinks: true
+permalink:        pretty
 
 # Setup
 title:               Humboldt Data Science
 tagline:             'Statistical Methods and Python tools'
 description:         'Class provided by the Cosmology Group of Prof. Marek Kowalski of the <a href="https://www.physik.hu-berlin.de/de/astro" target="_blank">Humboldt Universitaet zu Berlin.</a>'
 url:                 http://github.com/HUDataScience
-baseurl:             'http://hudatascience.github.io/'
+baseurl:             'http://hudatascience.github.io'
 huastrourl:          https://www.physik.hu-berlin.de/de/astro
 paginate:            5
 
