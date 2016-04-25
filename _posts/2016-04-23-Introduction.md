@@ -8,7 +8,8 @@ visible: true
 <div class="message">
   Introduction class
 </div>
-  
+
+ 
 ## Basic information
   In class we defined the basic course information:
 
@@ -39,5 +40,8 @@ Introduction of the concept of histograms, mode, mean, median, and variance.
 
 See the [anaconda](http://www.continuum.io/downloads) web page and follow the instruction.
 
-## Documents
+## Reminder:
+[Documents website]({{ site.googledriveurl }}/2016)
+
+#### Documents
 [The slides of the class]({{ site.googledriveurl }}/2016/0_stat_methods_16.pdf)
