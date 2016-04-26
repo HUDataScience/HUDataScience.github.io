@@ -17,7 +17,7 @@ visible: true
 
 <!--more-->
 
-The python code written live by Mickael are on line in the class' [github]({{site.giturl}}/StatisticalMethods2016) notebooks (see Lesson2_...).
+The python codes written during the class  by Mickael are online in the class' [github]({{site.giturl}}/StatisticalMethods2016) notebooks (see Lesson2_...).
 
 ## Exercices:
 
