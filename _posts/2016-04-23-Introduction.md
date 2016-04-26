@@ -40,8 +40,10 @@ Introduction of the concept of histograms, mode, mean, median, and variance.
 
 See the [anaconda](http://www.continuum.io/downloads) web page and follow the instruction.
 
-## Reminder:
-[Documents website]({{ site.googledriveurl }}/2016)
+***
 
-#### Documents
-[The slides of the class]({{ site.googledriveurl }}/2016/0_stat_methods_16.pdf)
+## Reminder
+
+[Documents website]({{ site.googledriveurl }})
+
+[The slides of the class]({{ site.googledriveurl }}/slides/0_stat_methods_16.pdf)

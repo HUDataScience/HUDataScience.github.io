@@ -28,5 +28,5 @@ The directory hosting the class document is [here]({{site.googledriveurl}}).
 
 Time and location: 
 
-* Exercises: 12h20-13h05 room 2.201
-* Lecture: 13h20-14h50 room 2.201
+* Exercises: 12h20-13h05 room 2.201 (or 2.202)
+* Lecture: 13h20-14h50 room 2.201 (or 2.202)
