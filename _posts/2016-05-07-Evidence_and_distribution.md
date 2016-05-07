@@ -6,12 +6,12 @@ visible: true
 
 <!--This will be shown in the main page-->
   
-## Lessons about:
+## Lesson about:
 
 * Distribution (with the toss-a-coin example)
 * Probability Distribution Function (pdf) Gaussian and Poisson
 * Variance, mean and expected Values
-* Python-tip: how to create functions and libraries
+* _Python-tip_: how to create functions and libraries
 
 <!--more-->
 
